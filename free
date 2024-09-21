@@ -1,0 +1,16 @@
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+TextLabel.Parent = ScreenGui
+TextLabel.Size = UDim2.new(2, 0, 2, 0) -- Extends 200% of the screen size in both directions
+TextLabel.Position = UDim2.new(-0.5, 0, -0.5, 0) -- Starts before the top-left corner to cover even more space
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Black background
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255) -- White text
+TextLabel.TextScaled = true
+TextLabel.Text = "จะเอาควยไรไอสัส"
+
+wait(60)
+
+ScreenGui:Destroy()
